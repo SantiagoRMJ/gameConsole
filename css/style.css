@@ -85,10 +85,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 #marginScreen{
     width: 15em;
-    height: 10em;
+    height: 11em;
     background-color: salmon;
     border-radius: 10% 10% 30% 10%;
+}
+#topScreen{
+    width: 15em;
+    height: 1.5em;
+    background-color: chocolate;
+}
+#middleScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#leftScreen{
+    width: 15%;
+    height: 8em;
+    background-color: darkgreen;
+}
+#screen{
+    width: 70%;
+    height: 8em;
+    background-color: darkorchid;
+}
+#rightScreen{
+    width: 15%;
+    height: 8em;
+    background-color: deeppink;
+    border-radius: 0% 0% 40% 0%;
+}
+/*********************************************
+**********************************************
+************  DIVISOR CENTRAL   **************
+**********************************************
+*********************************************/
+
+#consoleLogo{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#spaceLeft{
+    background-color: darkorchid;
+    width: 2em;
+    height: 2em;
+}
+#logo{
+    width: 8em;
+    height: 2em;
+    background-color: black; 
 }
