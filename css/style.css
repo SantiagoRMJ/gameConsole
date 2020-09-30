@@ -1,0 +1,94 @@
+
+#gral{
+    width: 100vw;
+    height: 100vh;
+    background-color: hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contConsole{
+    
+    width: 30em;
+    height: 40em;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+#consoleBright{
+    width: 20em;
+    height: 30em;
+    background-color: ivory;
+    border-radius: 4% 4% 15% 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#console{
+    width: 19em;
+    height: 29.5em;
+    background-color: lawngreen;
+    border-radius: 4% 4% 15% 4%;
+}
+
+/*********************************************
+**********************************************
+****  PARTE SUPERIOR DE LA PANTALLA  *********
+**********************************************
+*********************************************/
+
+#topGroove{
+    background-color: lightblue;
+    width: 19em;
+    height: 1.5em;    
+    border-bottom: 3px solid gray;
+    display: flex;
+}
+
+
+.boxTop1{
+    width: 10%;
+    height: 1,5em;
+    background-color: red;
+    border-right: 3px solid gray;
+}
+
+.boxTop2{
+    width: 80%;
+    height: 1,5em;
+    background-color: red;
+}
+.boxTop3{
+    width: 10%;
+    height: 1,5em;
+    background-color:red;
+    border-left: 3px solid gray;
+}
+
+#topDivisor{
+    width: 19em;
+    height: 1.5em;
+    background-color: royalblue;   
+}
+
+/*********************************************
+**********************************************
+**************   PANTALLA   ******************
+**********************************************
+*********************************************/
+
+#contScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#marginScreen{
+    width: 15em;
+    height: 10em;
+    background-color: salmon;
+    border-radius: 10% 10% 30% 10%;
+}
