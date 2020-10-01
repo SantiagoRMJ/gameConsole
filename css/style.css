@@ -93,9 +93,42 @@
 
 #contScreen{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    justify-content: center;   
+    align-items: center;   
+}
+#leftLines{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+    width: 4em;
+    height: 1.5em;
+    margin-left: 0.2em;
+
+}
+#topLineLeft{
+    width: 4em;
+    height: 0.2em; 
+    background-color: rgb(119, 21, 80);
+    margin-top: 0.2em;
+}
+#botLineLeft{
+    width: 4em;
+    height: 0.2em;
+    background-color: rgb(2, 0, 77);
+    margin-bottom: 0.2em;
+}
+#topText{
+
+}
+#rightLines{
+
+}
+#topLineRight{
+
+}
+#botLineRight{
+
 }
 #marginScreen{
     width: 15em;
@@ -107,6 +140,7 @@
     width: 15em;
     height: 1.5em;
     background-color: rgb(85, 86, 88);
+    border: 1px solid red;
 }
 #middleScreen{
     display: flex;
@@ -122,14 +156,14 @@
     width: 70%;
     height: 8em;
     background-color: rgb(74, 91, 27);
-    border: 1px solid black;
+    
 }
 #rightScreen{
     width: 15%;
     height: 8em;
     background-color: rgb(85, 86, 88);
     border-radius: 0% 0% 40% 0%;
-    border-right: 1px solid black;
+    border-right: 1px solid rgb(82, 77, 77);
 }
 /*********************************************
 **********************************************
