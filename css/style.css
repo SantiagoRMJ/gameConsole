@@ -2,7 +2,7 @@
 #gral{
     width: 100vw;
     height: 100vh;
-    background-color: hotpink;
+    background-color: turquoise;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
     
     width: 30em;
     height: 40em;
-    background-color: green;
+    background-color: turquoise;
     display: flex;
     justify-content: center;
     align-items: center;    
@@ -21,7 +21,7 @@
 #consoleBright{
     width: 20em;
     height: 30em;
-    background-color: ivory;
+    background-color: turquoise;
     border-radius: 4% 4% 15% 4%;
     display: flex;
     justify-content: center;
@@ -31,8 +31,9 @@
 #console{
     width: 19em;
     height: 29.5em;
-    background-color: lawngreen;
+    background-color: rgb(190,188, 185);
     border-radius: 4% 4% 15% 4%;
+    
 }
 
 /*********************************************
@@ -47,32 +48,41 @@
     height: 1.5em;    
     border-bottom: 3px solid gray;
     display: flex;
+    border-radius: 20% 20% 0% 0%;
 }
 
 
 .boxTop1{
     width: 10%;
     height: 1,5em;
-    background-color: red;
+    background-color: rgb(190,188, 185);
     border-right: 3px solid gray;
+    border-radius: 20% 0% 0% 0%;
+    border-bottom: 1px solid rgb(85, 86, 88);
+    
 }
 
 .boxTop2{
     width: 80%;
     height: 1,5em;
-    background-color: red;
+    background-color: rgb(190,188, 185);
+    border-left: 1px solid rgb(85, 86, 88);
+    border-bottom: 1px solid rgb(85, 86, 88);
+    border-right: 1px solid rgb(85, 86, 88);
 }
 .boxTop3{
     width: 10%;
     height: 1,5em;
-    background-color:red;
+    background-color:rgb(190,188, 185);
     border-left: 3px solid gray;
+    border-radius: 0% 20% 0% 0%;
+    border-bottom: 1px solid rgb(85, 86, 88);
 }
 
 #topDivisor{
     width: 19em;
     height: 1.5em;
-    background-color: royalblue;   
+    background-color: rgb(192,190, 186);
 }
 
 /*********************************************
@@ -90,13 +100,13 @@
 #marginScreen{
     width: 15em;
     height: 11em;
-    background-color: salmon;
+    background-color: rgb(85, 86, 88);
     border-radius: 10% 10% 30% 10%;
 }
 #topScreen{
     width: 15em;
     height: 1.5em;
-    background-color: chocolate;
+    background-color: rgb(85, 86, 88);
 }
 #middleScreen{
     display: flex;
@@ -106,18 +116,20 @@
 #leftScreen{
     width: 15%;
     height: 8em;
-    background-color: darkgreen;
+    background-color: rgb(85, 86, 88);
 }
 #screen{
     width: 70%;
     height: 8em;
-    background-color: darkorchid;
+    background-color: rgb(74, 91, 27);
+    border: 1px solid black;
 }
 #rightScreen{
     width: 15%;
     height: 8em;
-    background-color: deeppink;
+    background-color: rgb(85, 86, 88);
     border-radius: 0% 0% 40% 0%;
+    border-right: 1px solid black;
 }
 /*********************************************
 **********************************************
@@ -131,14 +143,14 @@
     
 }
 #spaceLeft{
-    background-color: darkorchid;
+    background-color: rgb(190,188, 185);
     width: 2em;
     height: 2em;
 }
 #logo{
     width: 8em;
     height: 2em;
-    background-color: black; 
+    background-color: rgb(190,188, 185);
 }
 
 /*********************************************
@@ -149,17 +161,17 @@
 
 #buttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
 
 }
 #topMargin{
-    background-color: red;
+    background-color: rgb(190,188, 185);
     width: 100%;
-    height: 3em;
+    height: 2.5em;
 }
 #midButtons{
-    background-color: yellow;
+    background-color: rgb(190,188, 185);
     width: 100%;
     height: 5em;
     display: flex;
@@ -169,18 +181,18 @@
 #leftCross{
     width: 2em;
     height: 5em;
-    background-color: aqua;
+    background-color: rgb(190,188, 185);
 }
 
 #midMargin{
     width: 5em;
     height: 5em;
-    background-color: teal;
+    background-color: rgb(190,188, 185);
 }
 #rightButtons{
     width: 6em;
     height: 5em;
-    background-color: palegreen;
+    background-color:rgb(190,188, 185);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -189,16 +201,16 @@
 #rightMargin{
     width: 1em;
     height: 5em;
-    background-color: aqua;
+    background-color: rgb(190,188, 185);
 }
 /*** RIGHT BUTTONS ***/
 
 #contRightButtons{
     width: 6em;
     height: 2.5em;
-    background-color: yellowgreen;
+    background-color:rgb(190,188, 185);
     transform: rotate(-30deg);
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
     flex-direction: row;
     display: flex;
@@ -210,9 +222,9 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 49%;
+    width: 40%;
     height: 100%;
-    background-color: yellow;
+    background-color: rgb(48, 16, 190);
     border-radius: 100%;
 }
 #contRightButton{
@@ -220,29 +232,32 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 49%;
+    width: 40%;
     height: 100%;
-    background-color: tomato;  
+    background-color: rgb(81, 15, 204);  
     border-radius: 100%; 
 }
 #leftButton{
-    width: 90%;
-    height: 90%;
-    background-color: blue;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 17, 71);
     border-radius: 100%; 
+    margin-left: 0px;
+    border: 1.5px solid black;
 }
 #rightButton{
-    width: 90%;
-    height: 90%;
-    background-color: green; 
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133, 17, 71); 
     border-radius: 100%;
+    border: 1.5px solid black;
 }
 /*** CROSS TOP ***/
 
 #contCross{
     width: 5em;
     height: 5em;
-    background-color: pink;
+    background-color: rgb(190,188, 185);
     display: flex;
     align-items: flex-start;
     flex-direction: column;
@@ -250,24 +265,28 @@
 #crossTop{
     width: 100%;
     height: 33%;
-    background-color: red;
+    background-color: rgb(190,188, 185);
     display: flex;
 }
 #crossTopLeft{
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: rgb(190,188, 185);
 }
 #crossTopButton{
     width: 100%;
     height: 100%;
     background-color: black;
     border-radius: 25% 25% 0% 0%;
+    border-top: 2px solid rgb(85, 86, 88);
+    border-left: 2px solid rgb(85, 86, 88);
+    border-right: 2px solid rgb(85, 86, 88);
+
 }
 #crossTopRight{
     width: 100%;
     height: 100%;
-    background-color: green;
+    background-color: rgb(190,188, 185);
 }
 
 /** CROSS MID **/
@@ -275,21 +294,27 @@
 #crossMid{
     width: 100%;
     height: 33%;
-    background-color: gray;
+    background-color: black;
     display: flex;
+    border-radius: 25% 25% 25% 25%;
+    
 }
 #crossMidLeft{
     width: 100%;
     height: 100%;
     background-color: black;
     border-radius: 25% 0% 0% 25%;
+    border-top: 2px solid rgb(85, 86, 88);
+    border-left: 2px solid rgb(85, 86, 88);
+    
 }
 #crossMidButton{
     width: 90%;
     height: 90%;
-    background-color: gray;
+    background-color: black;
     border-radius: 100%;
-    border: 1px solid white;
+    border: 2px solid rgb(85, 86, 88);
+    z-index: 1;
 }
 #crossMidRight{
     width: 100%;
@@ -306,31 +331,34 @@
 #crossBot{
     width: 100%;
     height: 33%;
-    background-color: red;
+    background-color: rgb(190,188, 185);
     display: flex;
 }
 #crossBotLeft{
     width: 100%;
     height: 100%;
-    background-color: yellow;
+    background-color: rgb(190,188, 185);
 }
 #crossBotButton{
     width: 100%;
     height: 100%;
     background-color: black;
     border-radius: 0% 0% 25% 25%;
+    border-left: 2px solid rgb(85, 86, 88);
+    border-right: 2px solid rgb(85, 86, 88);
+    border-bottom: 2px solid rgb(85, 86, 88);
 }
 #crossBotRight{
     width: 100%;
     height: 100%;
-    background-color: pink;
+    background-color: rgb(190,188, 185);
 }
 
 
 #startSelectCont{
     width: 100%;
     height: 3em;
-    background-color: indianred;
+    background-color: rgb(190,188, 185);
     border-radius: 0% 0% 40% 0%;
     display: flex;
     justify-content: center;
@@ -340,7 +368,7 @@
 #startSelectCont2{
     width: 30%;
     height: 3em;
-    background-color: blanchedalmond;
+    background-color: rgb(190,188, 185);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,7 +376,7 @@
 #selectCont{
     width: 50%;
     height: 3em;
-    background-color: green;
+    background-color: rgb(190,188, 185);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,7 +384,7 @@
 #startCont{
     width: 50%;
     height: 3em;
-    background-color: blue;
+    background-color: rgb(190,188, 185);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -364,16 +392,16 @@
 #select{
     width: 80%;
     height: 0.5em;
-    background-color: blue;
+    background-color: rgb(85, 86, 88);
     border-radius: 100%; 
     transform: rotate(-30deg);
-    border: 1px solid yellow;
+    border: 1px solid black;
 }
 #start{
     width: 80%;
     height: 0.5em;
-    background-color: green;
+    background-color: rgb(85, 86, 88);
     border-radius: 100%; 
     transform: rotate(-30deg);
-    border: 1px solid yellow;
+    border: 1px solid black;
 }
