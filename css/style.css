@@ -202,6 +202,7 @@
     align-items: flex-start;
     flex-direction: row;
     display: flex;
+    border-radius: 30%;
 }
 
 #contLeftButton{
@@ -261,6 +262,7 @@
     width: 100%;
     height: 100%;
     background-color: black;
+    border-radius: 25% 25% 0% 0%;
 }
 #crossTopRight{
     width: 100%;
@@ -273,10 +275,32 @@
 #crossMid{
     width: 100%;
     height: 33%;
-    background-color: royalblue;
+    background-color: gray;
     display: flex;
 }
+#crossMidLeft{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 25% 0% 0% 25%;
+}
+#crossMidButton{
+    width: 90%;
+    height: 90%;
+    background-color: gray;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+#crossMidRight{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 0% 25% 25% 0%;
+}
 
+
+
+/** CROSS BOT **/
 
 
 #crossBot{
@@ -284,4 +308,72 @@
     height: 33%;
     background-color: red;
     display: flex;
+}
+#crossBotLeft{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+}
+#crossBotButton{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 0% 0% 25% 25%;
+}
+#crossBotRight{
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+}
+
+
+#startSelectCont{
+    width: 100%;
+    height: 3em;
+    background-color: indianred;
+    border-radius: 0% 0% 40% 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#startSelectCont2{
+    width: 30%;
+    height: 3em;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#selectCont{
+    width: 50%;
+    height: 3em;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#startCont{
+    width: 50%;
+    height: 3em;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#select{
+    width: 80%;
+    height: 0.5em;
+    background-color: blue;
+    border-radius: 100%; 
+    transform: rotate(-30deg);
+    border: 1px solid yellow;
+}
+#start{
+    width: 80%;
+    height: 0.5em;
+    background-color: green;
+    border-radius: 100%; 
+    transform: rotate(-30deg);
+    border: 1px solid yellow;
 }
