@@ -33,6 +33,8 @@
     height: 29.5em;
     background-color: rgb(190,188, 185);
     border-radius: 4% 4% 15% 4%;
+    border: 1px solid rgb(109, 117, 117);
+    box-shadow: 10px 10px 15px black;
     
 }
 
@@ -94,7 +96,8 @@
 #contScreen{
     display: flex;
     justify-content: center;   
-    align-items: center;   
+    align-items: center; 
+    flex-direction: row;  
 }
 #leftLines{
     display: flex;
@@ -119,16 +122,44 @@
     margin-bottom: 0.2em;
 }
 #topText{
-
+    width: 20em;
+    height: 80%;
+    background-color: rgb(85, 86, 88);
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+#textMatrix{
+    font-size: 7px;
+    color: rgb(192,190, 186);
+    margin-left: 3px;
 }
 #rightLines{
-
+    width: 2.8em;
+    height: 100%;
+    background-color: rgb(85, 86, 88);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: space-around;
+    width: 3.5em;
+    height: 1.5em;
+    margin-left: 0.2em;
 }
 #topLineRight{
-
+    width: 3em;
+    height: 0.2em; 
+    background-color: rgb(119, 21, 80);
+    margin-top: 0.2em;
 }
 #botLineRight{
-
+    width: 3em;
+    height: 0.2em;
+    background-color: rgb(2, 0, 77);
+    margin-bottom: 0.2em;
 }
 #marginScreen{
     width: 15em;
@@ -140,7 +171,9 @@
     width: 15em;
     height: 1.5em;
     background-color: rgb(85, 86, 88);
-    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
 }
 #middleScreen{
     display: flex;
@@ -156,6 +189,8 @@
     width: 70%;
     height: 8em;
     background-color: rgb(74, 91, 27);
+    border: 1px solid black;
+    box-shadow: inset 10px 10px 7px rgb(48, 59, 18);
     
 }
 #rightScreen{
@@ -278,6 +313,7 @@
     border-radius: 100%; 
     margin-left: 0px;
     border: 1.5px solid black;
+    box-shadow: 2px 2px 7px rgb(85, 86, 88);
 }
 #rightButton{
     width: 100%;
@@ -285,6 +321,7 @@
     background-color: rgb(133, 17, 71); 
     border-radius: 100%;
     border: 1.5px solid black;
+    box-shadow: 2px 2px 7px rgb(85, 86, 88);
 }
 /*** CROSS TOP ***/
 
@@ -430,6 +467,7 @@
     border-radius: 100%; 
     transform: rotate(-30deg);
     border: 1px solid black;
+    box-shadow: 2px 2px 7px rgb(85, 86, 88);
 }
 #start{
     width: 80%;
@@ -438,4 +476,34 @@
     border-radius: 100%; 
     transform: rotate(-30deg);
     border: 1px solid black;
+    box-shadow: 2px 2px 7px rgb(85, 86, 88);
+}
+/*********************************************
+**********************************************
+************     SPEAKERS       **************
+**********************************************
+*********************************************/
+
+#contSpeakers{
+    width: 4em;
+    height: 3em;
+    background-color: rgb(190,188, 185);
+    border-radius: 0% 0% 0% 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    transform: rotate(-30deg);
+    position: absolute;
+    bottom: 7em;
+    left: 40.4em;
+    
+}
+.speakers{
+    background-color: rgb(190,188, 185);
+    border-radius: 80% 80% 80% 80%;
+    width: 10%;
+    height: 100%;
+    border: 1px solid black;
+    box-shadow: inset 2px 2px 7px rgb(49, 50, 51);
 }
